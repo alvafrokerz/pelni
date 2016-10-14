@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:orientation="horizontal"
+
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:text="jumlah item  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:textSize="@dimen/text20"
+                android:layout_gravity="left"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:text="Name"
+            android:textSize="@dimen/text20"
+            android:id="@+id/editText_spinner_xml_voyage"
+            android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_weight="1"
+            >
+        <Button
+            android:text="-"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:id="@+id/button_menu_voyage_min"
+            android:textSize="@dimen/text20"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+          />
+
+        <Button
+            android:id="@+id/button_menu_voyage_plus"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+
+            android:textSize="@dimen/text20"
+            android:text="+"
+
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

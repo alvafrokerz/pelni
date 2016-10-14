@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                >
+
+                <!-- 2 columns -->
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+
+                    >
+
+                    <ImageButton
+                        android:src="@drawable/image_meals_create"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/button_menu_procurement_request"
+                        android:layout_span="1"
+
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:src="@drawable/image_procurement_info"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/button_menu_procurement_information"
+                        android:layout_span="1"
+
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+
+                    >
+
+                    <ImageButton
+                        android:src="@drawable/image_procurement_download"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/button_menu_procurement_download"
+                        android:layout_span="1"
+
+                        android:layout_weight="1" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+
+                    >
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

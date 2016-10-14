@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+           >
+
+                <TableLayout
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:isScrollContainer="true">
+
+                    <!-- 2 columns -->
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+
+                        <TextView
+                            android:text="Pilih Perjalanan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView3" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="berangkat"
+                            android:ems="10"
+                            android:layout_weight="1"
+                            android:id="@+id/editText_menu_voyage_origin"
+                            android:drawableRight="@drawable/pwd"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="tujuan"
+                            android:ems="10"
+                            android:layout_weight="1"
+                            android:id="@+id/editText_menu_voyage_to"
+                            android:drawableRight="@drawable/pwd"
+                            />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+
+                        <TextView
+                            android:text="Pilih tanggal dan jam keberangkatan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/textView6" />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:text="Tanggal"
+                            android:ems="10"
+
+                            android:id="@+id/editText_menu_voyage_date"
+                            android:drawableRight="@drawable/pwd"
+                            />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:text="jam"
+                            android:ems="5"
+                            android:id="@+id/editText_menu_voyage_time"
+                            android:drawableRight="@drawable/pwd"
+                            />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+
+                        <TextView
+                            android:text="Pilih kapal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kapal" />
+
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+
+                        >
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="pilih kapal"
+                            android:ems="10"
+                            android:layout_weight="1"
+                            android:id="@+id/editText_menu_voyage_pilihkapal"
+                            android:drawableRight="@drawable/pwd"
+                            />
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+
+                        <TextView
+                            android:text="Pilih kelas penumpang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/textView7" />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+                       <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner_menu_voyage_plan_class" />
+
+                        <Button
+                            android:text="add"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/add"
+
+
+                            />
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+
+                        android:layout_weight="9">
+
+                        <ListView android:id="@+id/listviewmenu_voyage"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:fillViewport="true"
+                             />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+
+                        android:layout_weight="1">
+
+                        <Button
+                            android:text="Next"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/button_menu_voyage_next" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

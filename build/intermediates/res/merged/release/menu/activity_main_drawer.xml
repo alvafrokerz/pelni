@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Main" android:icon="@drawable/home"
+            android:title="Menu utama" />
+        <item android:id="@+id/Voyage" android:icon="@drawable/procurement"
+            android:title="Perlayaran" />
+        <item android:id="@+id/Procurement" android:icon="@drawable/procurement"
+            android:title="Rekusisi" />
+        <item android:id="@+id/wastemanagement" android:icon="@drawable/image_waste"
+            android:title="makanan sisa" />
+
+        <item android:id="@+id/Inventory" android:icon="@drawable/inventory"
+            android:title="Barang" />
+        <item android:id="@+id/peoplemanagement" android:icon="@drawable/people"
+            android:title="manajemen orang" />
+    </group>
+</menu>

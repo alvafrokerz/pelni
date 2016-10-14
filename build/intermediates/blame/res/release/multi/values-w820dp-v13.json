@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "D:\\androidstudioproject\\pelni\\build\\intermediates\\res\\merged\\release\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 57,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 55,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 55,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 570,
+                        "endColumn": 55,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 225,
+                    "endColumn": 40,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endColumn": 40,
+                        "endOffset": 564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 45,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 45,
+                        "endOffset": 471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 49,
+                    "endOffset": 357
+                },
+                "from": {
+                    "file": "D:\\androidstudioproject\\pelni\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 49,
+                        "endOffset": 522
+                    }
+                }
+            }
+        ]
+    }
+]
